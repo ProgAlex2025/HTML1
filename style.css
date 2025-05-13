@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Tagesschrift&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+    font-family: Tagesschrift;
+    text-align: center;
+}
+
+.who {
+    background-color: rgb(93, 255, 128);
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+ul {
+    background-color: rgb(160, 251, 222);
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Tr {
+    background-color: #a9f0b8;
+    padding: 10px;
+    border-radius: 20px;
+    color: #2E3532;
+    text-decoration: none;
+    animation: 4s ease;
+}
+
+.Tr:hover {
+    background-color: #cde1ee;
+}
+
+.Tr:active {
+    background-color: #a9cce8;
+}
+.Mom {
+    background-color: #a9f0b8;
+    padding: 10px;
+    border-radius: 20px;
+    color: #2E3532;
+    text-decoration: none;
+    animation: 1s ease;
+}
+
+.Mom:hover {
+    background-color: #cde1ee;
+}
+
+.Mom:active {
+    background-color: #a9cce8;
+}
+
+.Pr {
+    background-color: #a9f0b8;
+    padding: 10px;
+    border-radius: 20px;
+    color: #2E3532;
+    text-decoration: none;
+    animation: 1s ease;
+}
+
+.Pr:hover {
+    background-color: #cde1ee;
+}
+
+.Pr:active {
+    background-color: #a9cce8;
+}
+
+.Trav {
+    background-color: rgb(236, 125, 125);
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
