@@ -5,23 +5,40 @@ html {
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(155, 246, 197);
     margin: 10px;
     padding: 10px;
     font-family: Tagesschrift;
     text-align: center;
 }
 
+.pict {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gifk {
+    width: 200px;
+    height: auto;
+}
+
+.me {
+    width: 400px;
+    height: auto;
+    border-radius: 100px;
+}
+
 .who {
-    background-color: rgb(93, 255, 128);
+    background-color: rgba(71, 189, 96, 0.5);
     border-radius: 30px;
     padding: 10px;
     text-align: center;
-    
+    margin-bottom: 10px;
+    background-image: url("me2.jpg");
 }
 
 ul {
-    background-color: rgb(160, 251, 222);
+    background-color: rgb(52, 164, 129);
     border-radius: 30px;
     padding: 10px;
     display: flex;
@@ -37,9 +54,13 @@ ul {
     background-color: #a9f0b8;
     padding: 10px;
     border-radius: 20px;
-    color: #2E3532;
+    
+    animation: 1s ease;
+}
+
+.Tr>a {
+    color: #000000;
     text-decoration: none;
-    animation: 4s ease;
 }
 
 .Tr:hover {
@@ -56,6 +77,11 @@ ul {
     color: #2E3532;
     text-decoration: none;
     animation: 1s ease;
+}
+
+.Mom>a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .Mom:hover {
@@ -75,6 +101,11 @@ ul {
     animation: 1s ease;
 }
 
+.Pr>a {
+    color: #000000;
+    text-decoration: none;
+}
+
 .Pr:hover {
     background-color: #cde1ee;
 }
@@ -83,10 +114,54 @@ ul {
     background-color: #a9cce8;
 }
 
+.plane {
+   font-size: 34px;
+}  
+
 .Trav {
-    background-color: rgb(236, 125, 125);
+    background-color: rgba(157, 213, 115, 0.5);
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    background-image: url("photo_2022-01-18_07-43-02.jpg");
+}
+
+.pr>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.pr:hover {
+    background-color: rgb(124, 171, 88);
+    border-radius: 30px;
+}
+
+.pr:active {
+    background-color: rgb(74, 101, 52);
+    border-radius: 30px;
+}
+
+.mome {
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    background-image: url("soldatiki.jpg");
+}
+
+.Proj {
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(91, 252, 99, 0.5);
+}
+
+
+footer {
+    background-color: rgba(42, 152, 47, 0.5);
+    margin-top: 10px;
     border-radius: 30px;
     padding: 10px;
     text-align: center;
 }
-
