@@ -30,7 +30,7 @@ body {
 
 .logotype {
     position: relative;
-    color: #337AB7;
+    color: #63a031;
     letter-spacing: 3px;
     display: inline-block;
     line-height: 50px;
@@ -58,7 +58,7 @@ body {
 }
 
 .logotype:hover {
-    color: #2d6b9f;
+    color: #1d742f;
 }
 
 .logotype:hover div {
