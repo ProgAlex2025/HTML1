@@ -28,7 +28,43 @@ body {
     border-radius: 100px;
 }
 
+.logotype {
+    position: relative;
+    color: #337AB7;
+    letter-spacing: 3px;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 54px;
+    font-family: 'Russo One', sans-serif;
+    font-variant: small-caps;
+    transition: color 0.3s ease-in-out;
+    text-shadow: 1px 1px #fffcf5, 3px 3px;
+    margin-bottom: 50px;
 
+}
+.logotype b {
+    font-variant: normal;
+}
+
+.logotype div {
+    position: absolute;
+    font-size: 24px;
+    text-shadow: 1px 1px #fffcf5;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 0;
+    left: 0;
+    white-space: nowrap;
+    transform: translateX(0);
+}
+
+.logotype:hover {
+    color: #2d6b9f;
+}
+
+.logotype:hover div {
+    left: 100%;
+    transform: translateX(-100%);
+}
 
 .who {
     background-color: rgba(71, 189, 96, 0.5);
@@ -237,12 +273,5 @@ form {
 }
 
 .input1 {
-    margin-top: 10px;
-    width: 500px;
-    height: 100px;
-}
-
-.input {
     background-color: #cae27a;
-    left: 100px;
 }
